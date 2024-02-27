@@ -14,7 +14,7 @@
             text-align: center;
         }
 
-       
+
         strong {
             font-size: 40px;
         }
@@ -29,12 +29,12 @@
             font-size: 30px;
         }
 
-     
+
         .image-grid {
             display: flex;
-            flex-wrap: column;
+            flex-wrap: wrap;
             justify-content: center;
-            gap: 80px;
+            gap: 60px;
         }
 
         
@@ -51,7 +51,7 @@
           margin: top 40px;
           height: center;
         }
-       
+    
         form label{
           display: block;
           font-size: 24px;
@@ -65,8 +65,9 @@
           margin-bottom: 10px;
           font-size: 20px;
           border: 1px solid#ccc;
-          border: radius: 5px;
+          border: radius 5px;
         }
+
         form input[type="submit"]{
           background-color: #4CAF50;
           color: WHITE;
@@ -137,19 +138,22 @@
         </div>
     </div>
 
-    <br></br
-    <form action="/submit_form.php" method="post">
+    <br></br>
+
+    <p></p>
+    <form action="/submit_form" method="post">
       <label for="name">Nome:</label><br>
       <input type="text" id="name" name="name" required><br>
-
+    
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" required><br>
-
+    
       <label for="message">Mensagem:</label><br>
       <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-
+    
       <input type="submit" value="Enviar">
-  </form>
+    </form>
+    
 
     <a href="https://papelaria-encantada-naara-em-goiania-colageno.negocio.site">Site</a>
 
