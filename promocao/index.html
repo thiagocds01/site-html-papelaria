@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<br>
 
 <head>
     <meta charset="utf-8">
     <title>Promoção do Dia</title>
+
 	<br></br>
 	
     <style>
         
         h1 {
-            font-size: 60px;
+            font-size: 70px;
             text-align: center;
         }
 
        
         strong {
-            font-size: 30px;
+            font-size: 40px;
         }
 
       
@@ -25,15 +26,15 @@
 
       
         ul li {
-            font-size: 20px;
+            font-size: 30px;
         }
 
      
         .image-grid {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: column;
             justify-content: center;
-            gap: 20px;
+            gap: 80px;
         }
 
         
@@ -42,14 +43,40 @@
         }
 
         .item-container img {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 140px;
         }
 
+        form{
+          margin: top 40px;
+          height: center;
+        }
        
+        form label{
+          display: block;
+          font-size: 24px;
+          margin-block: 10px;
+        }
+
+        form input,
+        form textarea{
+          width: 300px;
+          padding: 10px;
+          margin-bottom: 10px;
+          font-size: 20px;
+          border: 1px solid#ccc;
+          border: radius: 5px;
+        }
+        form input[type="submit"]{
+          background-color: #4CAF50;
+          color: WHITE;
+          border: pointer;
+          font: size 10px;
+        }
+
         a {
             display: block;
-            text-align: center;
+            text-align: none;
             margin-top: 20px;
             font-size: 24px;
         }
@@ -57,11 +84,11 @@
 	
 </head>
 
-<body>
 
-<br></br>
 
     <h1>Promoções do Dia</h1>
+
+    <br></br>
 
     <strong>Os melhores descontos</strong>
 	
@@ -110,7 +137,21 @@
         </div>
     </div>
 
-    <a href="https://papelaria-encantada-naara-em-goiania-colageno.negocio.site">Click Para Entrar</a>
+    <br></br
+    <form action="/submit_form.php" method="post">
+      <label for="name">Nome:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Mensagem:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+      <input type="submit" value="Enviar">
+  </form>
+
+    <a href="https://papelaria-encantada-naara-em-goiania-colageno.negocio.site">Site</a>
 
 </body>
 
