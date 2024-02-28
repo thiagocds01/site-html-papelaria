@@ -1,0 +1,22 @@
+#formulario_cadastro {
+    background-color:rgba(109, 41, 95, 0.315);
+    width: flex;    
+    color: rgb(41, 34, 34);
+    text-align: center;
+}
+
+.position-imagem {
+    float: center;
+    width: 96px;
+}
+
+#rodape {
+    background-color:rgba(109, 41, 95, 0.315);
+    width: flex;    
+    color: rgb(41, 34, 34);
+    list-style-position: inside;
+}
+
+.informe {
+    text-align: center;
+}
